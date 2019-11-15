@@ -96,7 +96,7 @@ SATELLITE DECODING SCRIPTS:
 
 The scripts are located in the sub-directory “predict”. Their structure is very similar to that described in Step 4 of the [NOAA] link above, so please read that, to get an idea of how things work. In summary, the scripts do the following:
 
-schedule_all.sh – top level scripts that downloads a file of satellite orbits and determines which satellites to decode. A warning is printed by default to ask the user to check all script path-names are correct.
+schedule_all.sh – top level script that downloads a file of satellite orbits and determines which satellites to decode. A warning is printed by default to ask the user to check all script path-names are correct.
 
 schedule_meteor.sh – This does the work of determining the visible orbits of each satellite on the day the script is run and sets up automatic jobs to decode the satellite data.
 
