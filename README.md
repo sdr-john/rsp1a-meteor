@@ -11,7 +11,7 @@ My code is based on the instructions presented here for decoding NOAA satellites
 
 Every time you see [NOAA] in the instructions below, it refers back to this URL. If you have an RTL-SDR, it would make sense to try NOAA satellite decoding first to get familiar with the process.
 
-This software should work but is provided “as-is” and is not currently very optimized. I am happy to receive feedback and suggestions on how it might be improved.
+This software should work but is provided “as-is” under the MIT licence and is not currently very optimized. I am happy to receive feedback and suggestions on how it might be improved.
 
 MY HARDWARE SETUP:
 
