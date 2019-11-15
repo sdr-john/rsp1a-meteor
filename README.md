@@ -134,6 +134,8 @@ schedule_meteor.sh – This sets the minimum orbit angle where the data is proce
 
 receive_and_process_meteor.sh – The “-R” flag sets the gain reduction value, currently 50. This is a critical setting and if wrongly set may cause the analogue-to-digital converter to overload or too low a signal-to-noise ratio for decoding. Testing your setup first using, e.g.  the Windows SDRuno software, may be sensible to view signal spectra and to see what gain settings are best.
 
+You will probably need about 1.8-2 Gbytes of spare space to be sure of storing the data files safely. On my setup, a typical RAW datafile is about 1 Gbyte; the WAV file for demodulation is typically about 500Mbytes; the DAT file containing the decoded data is about 150 Mbytes and the BMP file is about 20Mbytes of so in size. Currently, the receive script tries to delete the RAW and WAV files once the next processing step has been successful.
+
 This webpage gives useful information about the current status of the METEOR satellites:
 
 http://happysat.nl/Meteor/html/Meteor_Status.html
